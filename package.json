@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@tripetto/runner": "^8.2.0",
+    "@tripetto/runner-autoscroll": "^9.0.1",
+    "badge-maker": "^4.0.0",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  }
+}
